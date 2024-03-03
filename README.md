@@ -88,6 +88,9 @@ MD5：	6D9821A608C387F35760A5F0A9EF5030
 
    注意一定要以/结尾。然后重启php进程生效。
 
+
+   卸载 curl -o /root/uninstall https://mirror.cloud.idcsmart.com/cloud/scripts/uninstall && chmod +x /root/uninstall && /root/uninstall
+
 ### 魔方云HyperV使用方法
 
 1. 需自建授权接口站点，绑定license7.idcsmart.com域名，并开启SSL（随便一个域名证书即可）
