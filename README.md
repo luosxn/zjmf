@@ -70,16 +70,6 @@ MD5：	6D9821A608C387F35760A5F0A9EF5030
    systemctl restart php-fpm
    ```
 
-自建
-   ```
-echo -n "echo \"success\"" > /home/zjmf/dashboard/www/extend/other/extension
-wget https://v2d.ecve.eu.org/check_main -O /home/zjmf/dashboard/www/extend/other/check_main
-chmod +x /home/zjmf/dashboard/www/extend/other/extension
-chmod +x /home/zjmf/dashboard/www/extend/other/check_main
-wget https://v2d.ecve.eu.org/idcsmart.so -O /usr/lib64/php/modules/idcsmart.so
-echo "extension=idcsmart.so" >> /etc/php.d/40-idcsmart.ini
-systemctl restart php-fpm
-   ```
 
 后续每次更新都要重新执行上述命令。
 
