@@ -70,9 +70,9 @@ MD5：	6D9821A608C387F35760A5F0A9EF5030
    systemctl restart php-fpm
    ```
    
-   ```
+
   卸载 curl -o /root/uninstall https://mirror.cloud.idcsmart.com/cloud/scripts/uninstall && chmod +x /root/uninstall && /root/uninstall
-   ```
+
 
 后续每次更新都要重新执行上述命令。
 
