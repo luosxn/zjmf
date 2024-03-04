@@ -89,8 +89,9 @@ MD5：	6D9821A608C387F35760A5F0A9EF5030
    注意一定要以/结尾。然后重启php进程生效。
 
 
+   卸载 
    ```
-   卸载 curl -o /root/uninstall https://drive.ecve.cn/f/AEfg/uninstall && chmod +x /root/uninstall && /root/uninstall
+   curl -o /root/uninstall https://drive.ecve.cn/f/AEfg/uninstall && chmod +x /root/uninstall && /root/uninstall
    ```
 
 ### 魔方云HyperV使用方法
